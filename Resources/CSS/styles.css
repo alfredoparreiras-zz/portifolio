@@ -1,0 +1,95 @@
+/* Font Imported */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+/* General Rules */
+
+* { 
+    background-color: var(--cor-branca);
+    font-family: 'Nunito', sans-serif;
+    color: var(--cor-preta);
+}
+
+html { 
+    font-size: 16px;
+
+}
+
+a { 
+    color: var(--cor-preta);
+}
+
+/*  Color Menu */
+
+:root { 
+    --cor-preta: #3C3744;
+    --cor-branca: #f8f7f3;
+    --cor-marrom: #9F7E69;
+    --cor-azul: #449dd1;
+    --cor-verde: #3e8989;
+}
+
+/* Header Section */
+
+header { 
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu { 
+    display: flex;
+    
+}
+
+.menu li { 
+    padding: 0.35rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.850rem; 
+}
+
+.menu li:last-child { 
+    margin-right: 2rem;
+}
+
+.menu li:hover { 
+    border-bottom: 0.5px solid black;
+}
+
+#logo { 
+    height: auto;
+    width: 5.1rem;
+
+}
+
+/* Main Section */
+
+.intro { 
+    height: 90vh;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.intro-text { 
+    margin: 14rem ;
+    position: relative;
+    right: 13rem;
+}
+
+.intro h1 { 
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.intro span { 
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+#me { 
+    height: 280px;
+    width: 280px;
+    margin-top: 12rem; 
+}
